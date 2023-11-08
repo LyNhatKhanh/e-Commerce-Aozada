@@ -27,15 +27,89 @@
             </div>
             <div class="menu">
                 <div class="left">
-                    <div>All categories</div>
-                    <div>Feature selections</div>
-                    <div>Trade Assurance</div>
+                    <div class="categories">
+                        <i class="fa-solid fa-bars fa-xl" style="margin-right: 5px;"></i>
+                        All categories
+                        <div class="animated-tab">
+                            <div class="animated-tab-content">
+                                <div class="main-cate">
+                                    <div class="sub-main">Top categories</div>
+                                    <div class="sub-main">Home Decor</div>
+                                    <div class="sub-main">Industrial</div>
+                                    <div class="sub-main">Health & Personal Care</div>
+                                    <div class="sub-main">Fashion & Beauty</div>
+                                    <div class="sub-main">Sports & Entertainment</div>
+                                    <div class="sub-main">Raw Materials</div>
+                                    <div class="sub-main">Maintenance Repair & Operations</div>
+                                </div>
+                                <div class="secondary-cate">
+                                    <div class="sub-main">Consumer Electronics</div>
+                                    <div class="sub-main">Apparel & Accessories</div>
+                                    <div class="sub-main">Home & Garden</div>
+                                    <div class="sub-main">Sports & Entertainment</div>
+                                    <div class="sub-main">Beauty</div>
+                                    <div class="sub-main">Packaging & Printing</div>
+                                    <div class="sub-main">Mother, Kids & Toys</div>
+                                    <div class="sub-main">Jewelry, Eyewear, Watches & Accessories</div>
+                                    <div class="sub-main">Shoes & Accessories</div>
+                                </div>
+                                <div class="has-more">
+                                    <div class="wrap">
+                                        <div class="title">
+                                            Consumer Electronics
+                                            <i class="fa-solid fa-angle-right fa-lg" style="margin-left: 10px;"></i>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                5G smartphone
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/smart-watches.webp" alt="smart-watches">
+                                                Used Mobile Phones
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                Earbud & In-ear...
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                Iphone
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                Chargers, Bateries & Power Supplies
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                Mobile Phone & Accessories
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                Video Games & Accessories
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                Video Games & Accessories
+                                            </li>
+                                            <li>
+                                                <img src="./images/Menu/5g-smartphone.webp" alt="5g-smartphone">
+                                                Video Games & Accessories
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature">Feature selections</div>
+                    <div class="trade">Trade Assurance</div>
                 </div>
                 <div class="right">
-                    <div>Buyer Central</div>
-                    <div>Become a supplier</div>
-                    <div>Help Center</div>
-                    <div>Get the app</div>
+                    <div class="buyer-central">Buyer Central</div>
+                    <div class="supplier">Become a supplier</div>
+                    <div class="help">Help Center</div>
+                    <div class="get-app">Get the app</div>
                 </div>
             </div>
         </div>

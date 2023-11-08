@@ -126,21 +126,103 @@ header:before {
 .menu {
     display: flex;
     justify-content: space-between;
-    padding-right: 5px;
     position: relative;
     top: 70px;
+    padding-left: 18px;
+    padding-right: 20px;
 }
 
 .menu .right, .left {
     display: flex;
-    width: 28.6%;
-    
     justify-content: space-evenly;
 }
 
 .menu .left {
-    margin-left: 10px;
+    width: 28.6%;
 }
+
+.menu .right {
+    width: 35%;
+}
+
+.menu .left .categories .animated-tab {
+    height: 250px;
+    background-color: #fff;
+    left: 0;
+    top: 28px;
+    overflow: hidden;
+    /* opacity: 0;
+    visibility: hidden; */
+    position: absolute;
+    width: 100%;
+    z-index: 1; 
+}
+
+.menu .left .categories .animated-tab .animated-tab-content {
+    display: flex;
+    margin: auto 34px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .main-cate, .secondary-cate {
+    width: 28.5%;
+    overflow-y: scroll;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .sub-main {
+    height: 20px;
+    padding: 15px 27px;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .sub-main:hover {
+    background-color: #f2f2f2;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .has-more {
+    flex-grow: 1;
+    z-index: 2;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .has-more .wrap {
+    z-index: 3;
+    height: 18px;
+    padding-left: 28px;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .has-more .wrap ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .has-more .wrap ul li {
+    width: 100px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 28px 14px;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.menu .left .categories .animated-tab .animated-tab-content .has-more .wrap ul li img {
+    width: 75px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+/* ----------------------------------------------------------- */
 
 .header .right #sign-up {
     padding: 10px;
