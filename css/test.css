@@ -1,0 +1,55 @@
+body {
+    margin:0;
+    padding:0;
+}
+.wrapper {
+    border: 1px solid #ff0000;
+    height: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    border: 1px solid #715c5c;
+    height: 130px;
+    width: 100%;
+}
+.menu {
+    border: 1px solid #781c1c;
+    height: 50px;
+    width: 100%;
+}
+#main {
+    border: 1px solid #460606;
+    height: 400px;
+    width: 100%;
+}
+.sidebar {
+    border: 1px solid #840505;
+    height: 350px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.content {
+    border: 1px solid #0c0b0b;
+    height: 350px;
+    width: 77%;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+}
+.cleaner {
+    clear: both;
+}
+.footer {
+    border: 1px solid #000000;
+    height: 700px;
+    width: 100%;
+    /* display: none; */
+}
+
+.menu:hover ~ .footer {
+    /* display: inline; */
+    background-color: #840505;
+}
