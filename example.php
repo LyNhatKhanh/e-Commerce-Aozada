@@ -5,31 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OAZADA</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-example.css">
     <script src="https://kit.fontawesome.com/821a4c6a56.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="wrapper-headslide">
-        <div class="wrapper-headmenu">
-            <div class="header">
-                <div class="left">
-                    <a href="./index.php"><img src="./images/Artboard 5.png" alt="logo" width=100%></a>
-                </div>
-                <div class="right">
-                    <ul>
-                        <li>Ship to: US</li>
-                        <li>Global</li>
-                        <li id="sign-in">Sign in</li>
-                        <li id="sign-up">Sign up</li>
-                    </ul>
-                </div>
+        <div class="header">
+            <div class="left">
+                <a href="./index.php"><img src="./images/Artboard 5.png" alt="logo" width=100%></a>
             </div>
-            <div class="menu">
-                <div class="left">
-                    <div class="categories">
-                        <i class="fa-solid fa-bars fa-xl" style="margin-right: 5px;"></i>
-                        All categories
+            <div class="right">
+                <ul>
+                    <li>Ship to: US</li>
+                    <li>Global</li>
+                    <li id="sign-in">Sign in</li>
+                    <li id="sign-up">Sign up</li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="left">
+                <ul class="main-menu" style="margin: 0;">
+                    <li id="categories">
+                        <p><i class="fa-solid fa-bars fa-xl" style="margin-right: 5px;"></i>
+                            All categories</p>
                         <div class="animated-tab">
                             <div class="animated-tab-content">
                                 <div class="main-cate">
@@ -101,16 +101,120 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="feature">Feature selections</div>
-                    <div class="trade">Trade Assurance</div>
-                </div>
-                <div class="right">
-                    <div class="buyer-central">Buyer Central</div>
-                    <div class="supplier">Become a supplier</div>
-                    <div class="help">Help Center</div>
-                    <div class="get-app">Get the app</div>
-                </div>
+                    </li>
+                    <li id="feature">
+                        <p>Feature selections</p>
+                        <div class="animated-tab">
+                            <div class="animated-tab-content">
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-ranking-star fa-2xl" style="color: #000000;"></i> <br> <br>
+                                    <a href="#">Top ranking</a>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa-regular fa-folder-open fa-2xl" style="color: #000000;"></i> <br> <br>
+                                    <a href="#">New arrivals</a>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-tag fa-2xl" style="color: #000000;"></i> <br> <br>
+                                    <a href="#">Savings spotlight</a>
+                                </div>
+                                <div class="card-links">
+                                    <ul class="links">
+                                        <li><a href="#">Sample Center</a></li>
+                                        <li><a href="#">Trade shows</a></li>
+                                        <li><a href="#">Tips</a></li>
+                                        <li><a href="#">LIVE</a></li>
+                                        <li><a href="#">Global suppliers</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="assurance">
+                        <p>Trade Assurance</p>
+                        <div class="animated-tab">
+                            <div class="animated-tab-content">
+                                <div class="info">
+                                    <div class="img" style="height:32px;">
+                                        <img src="./images/Menu/trade assurance.svg" alt="trade-assurance-svg">
+                                    </div>
+                                    <h3>Enjoy protection from payment to delivery.</h3>
+                                    <button type="button" name="learn-more-btn" id="btn-learn">Learn more</button>
+                                </div>
+                                <div class="cards">
+                                    <div class="col-card" style="margin-right: 10px;">
+                                        <div class="mini-card">
+                                            <div class="img">
+                                                <img src="./images/Menu/ta-card1.svg" alt="ta-card1">
+                                            </div>
+                                            <p>Safe & easy payments</p>
+                                            <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                                        </div>
+                                        <div class="mini-card">
+                                            <div class="img">
+                                                <img src="./images/Menu/ta-card3.svg" alt="ta-card3">
+                                            </div>
+                                            <p>Shipping & logistics services</p>
+                                            <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-card">
+                                        <div class="mini-card">
+                                            <div class="img">
+                                                <img src="./images/Menu/ta-card2.svg" alt="ta-card2">
+                                            </div>
+                                            <p>Money-back policy</p>
+                                            <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                                        </div>
+                                        <div class="mini-card">
+                                            <div class="img">
+                                                <img src="./images/Menu/ta-card4.svg" alt="ta-card4">
+                                            </div>
+                                            <p>After-sales protections</p>
+                                            <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="main-menu" style="margin: 0;">
+                    <li id="buyer-central">
+                        <p>Buyer Central</p>
+                        <div class="animated-tab">
+                            <div class="animated-tab-content">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li id="supplier">
+                        <p>Become a supplier</p>
+                        <div class="animated-tab">
+                            <div class="animated-tab-content">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li id="help">
+                        <p>Help Center</p>
+                        <div class="animated-tab">
+                            <div class="animated-tab-content">
+
+                            </div>
+                        </div>
+                    </li>
+                    <li id="get-app">
+                        <p>Get the app</p>
+                        <div class="animated-tab">
+                            <div class="animated-tab-content">
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="slide">

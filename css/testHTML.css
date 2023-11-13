@@ -1,0 +1,35 @@
+
+.head {
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: bisque;
+    z-index: 0;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.slide {
+    margin-top: 20px;
+    height: 400px;
+    display: block;
+    background-image: url(https://s.alicdn.com/@img/imgextra/i1/O1CN019pxhXm26Fy2GEGlVO_!!6000000007633-0-tps-3840-1320.jpg);
+    position: relative;
+    /* background-size: contain; */
+}
+
+.child::before {
+    content: '';
+    height: 4px;
+    width: 0px;
+    background: blue;
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+}
+
+/* .head:hover+.slide {
+    top: 100px;
+    transition: 2s;
+} */
